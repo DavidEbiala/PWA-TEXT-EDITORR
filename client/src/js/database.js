@@ -40,7 +40,5 @@ export const getDb = async () => {
    
      const result = await request;
      console.log('result.value', result);
-     //if statement for result or value.
-     return result?.value;
 
 initdb();
